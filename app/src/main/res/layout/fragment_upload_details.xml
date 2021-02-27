@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadDetails">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:text="Add Your Visting Card Details Here"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/companyname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="115dp"
+        android:ems="10"
+        android:hint="Enter Your Company Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/chname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="167dp"
+        android:ems="10"
+        android:hint="Enter Your Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="233dp"
+        android:ems="10"
+        android:hint="Enter Position"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Enter Your Contact Number"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/webaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="239dp"
+        android:ems="10"
+        android:hint="Enter  Company Web Address"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/cemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="181dp"
+        android:ems="10"
+        android:hint="Enter Your Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/caddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cemail"
+        android:layout_marginTop="-181dp"
+        android:ems="10"
+        android:hint="Enter Your Address"
+        android:inputType="textMultiLine" />
+
+
+    <Button
+        android:id="@+id/btn_logo"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="79dp"
+        android:text="Choose Logo" />
+
+    <Button
+        android:id="@+id/btn_sccc"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="116dp"
+        android:text="Submit" />
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "606559092775",
+    "firebase_url": "https://vistingcard-a2c4b.firebaseio.com",
+    "project_id": "vistingcard-a2c4b",
+    "storage_bucket": "vistingcard-a2c4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606559092775:android:29438c3f17a7c302",
+        "android_client_info": {
+          "package_name": "gvs.com.vistingcard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606559092775-19nr63u3p1j57067okijdsmcb1b7hmsq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gvs.com.vistingcard",
+            "certificate_hash": "d91f9a93f5f01ae85f3f9181c0390824f15b0f42"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_zT6DjXHk3Djqo4YF42nfVlnJq0R-cn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606559092775-1vttucaok6i77eh0ee7prc9qlvta76ao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

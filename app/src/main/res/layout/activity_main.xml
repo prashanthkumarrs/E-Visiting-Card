@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/m">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="170dp"
+        android:layout_height="89dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginTop="210dp"
+        android:onClick="adminlog"
+        android:background="#b2c5ce"
+        android:textSize="20dp"
+        android:textColor="#14016f"
+android:textFontWeight="bold"
+        android:text="ADMIN" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="164dp"
+        android:layout_height="77dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="186dp"
+        android:layout_marginStart="49dp"
+        android:onClick="user"
+        android:background="#b2c5ce"
+        android:textSize="20dp"
+        android:textColor="#14016f"
+        android:text="user" />
+
+
+
+
+</RelativeLayout>
